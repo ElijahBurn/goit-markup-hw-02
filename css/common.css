@@ -17,11 +17,15 @@ body {
 
 .web-word {
     color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     
 }
 
 .studio-word {
     color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 /* Панель навигации */
 .nav {
@@ -95,6 +99,7 @@ body {
 
 .logo {
     color: #000000;
+    font-family: 'Raleway', sans-serif;
 }
 
 .adress {

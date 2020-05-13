@@ -33,6 +33,12 @@
 .clients-list:hover {
  background-color: var(--accent-color);
 }
+.clients-list:focus {
+    background-color: var(--accent-color);
+   }
+   .clients-list:active {
+    background-color: var(--accent-color);
+   }
 
 /* Страница портфолио */
 /* Фильтр */
