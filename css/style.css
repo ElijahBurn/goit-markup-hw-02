@@ -6,8 +6,16 @@
 /* цвет текста подписей  #ffffff*/
 
 
-/* Герой */
 
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #fff;
+    --footer-background: #2F303A;
+}
+
+/* Герой */
 .hero-button {
     background-color: var(--accent-color);
     color: #fff;
@@ -28,15 +36,15 @@
 
 /* Страница портфолио */
 /* Фильтр */
-.category {
+.filter {
     color: var(--title-text-color);
     background: #F5F4FA
     
 }
 
-.category:hover {
+.filter:hover {
     color: #ffffff;
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     
 }
 
