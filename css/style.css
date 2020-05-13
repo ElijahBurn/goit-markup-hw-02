@@ -51,4 +51,12 @@
 .project-liks {
     color: var(--title-text-color);
 }
-
+.project-liks:hover {
+    color: var(--accent-color);
+}
+.project-liks:focus {
+    color: var(--accent-color);
+}
+.project-liks:active {
+    color: var(--accent-color);
+}
