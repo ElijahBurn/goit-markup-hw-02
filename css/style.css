@@ -5,95 +5,7 @@
 /* цвет вторичного текста - #757575 */
 /* цвет текста подписей  #ffffff*/
 
-:root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --background-color: #fff;
-    --footer-background: #2F303A;
-}
 
-ul {
-    list-style-type: none;
-}
-body {
-    color: var(--title-text-color);
-}
-
-.web-word {
-    color: var(--accent-color);
-}
-
-.studio-word {
-    color: black;
-}
-/* Панель навигации */
-.nav {
-    color: var(--title-text-color);    
-}
-
-.nav:hover {
-    color: var(--accent-color);
-}
-
-.nav:focus {
-    color: var(--accent-color);
-}
-
-.nav:active {
-    color: var(--accent-color);
-}
-
-.nav-link {
-    color: var(--title-text-color);
-}
-
-.nav-link.current {
-    color: var(--accent-color);
-}
-
-.nav-link:hover {
-    color: var(--accent-color);
-}
-
-.nav-link:active {
-    color: var(--accent-color);
-}
-
-.nav-link:hover {
-    color: var(--accent-color);
-}
-
-.nav-mail {
-    color: var(--primary-text-color);
-}
-
-.nav-mail:hover {
-    color: var(--accent-color);
-}
-
-.nav-mail:active {
-    color: var(--accent-color)
-}
-
-.nav-mail:focus {
-    color: var(--accent-color)
-}
-
-.nav-phone {
-    color: var(--primary-text-color);
-}
-
-.nav-phone:hover {
-    color: var(--accent-color);
-}
-.nav-phone:active {
-    color: var(--accent-color);
-}
-
-.nav-phone:focus {
-    color: var(--accent-color);
-}
 /* Герой */
 
 .hero-button {
@@ -113,32 +25,7 @@ body {
 .clients-list:hover {
  background-color: var(--accent-color);
 }
-/* Футер */
-.footer{
 
-}
-
-.logo {
-    color: #000000;
-}
-
-.adress {
-    color: #fff;
-    background: #2F303A;
-}
-
-.footer-contacts {
-    color: rgba(255, 255, 255, 0.6);
-    background: #2F303A;
-}
-
-.footer-social-links {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-social-links:hover {
-    background-color:var(--accent-color);
-}
 /* Страница портфолио */
 /* Фильтр */
 .category {
