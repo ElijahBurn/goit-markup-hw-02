@@ -9,6 +9,8 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --background-color: #fff;
+    --footer-background: #2F303A;
 }
 
 ul {
@@ -25,7 +27,7 @@ body {
 .studio-word {
     color: black;
 }
-
+/* Панель навигации */
 .nav {
     color: var(--title-text-color);    
 }
@@ -44,6 +46,10 @@ body {
 
 .nav-link {
     color: var(--title-text-color);
+}
+
+.nav-link.current {
+    color: var(--accent-color);
 }
 
 .nav-link:hover {
@@ -88,24 +94,26 @@ body {
 .nav-phone:focus {
     color: var(--accent-color);
 }
+/* Герой */
 
 .hero-button {
     background-color: var(--accent-color);
     color: #fff;
 }
-
+/* Услуги */
 .services{
     background-color: rgba(47, 48, 58, 0.8);
     color: #fff;
 }
+/* Команда */
 .speciality {
     color: var(--primary-text-color);
 }
-
+/* Клиенты */
 .clients-list:hover {
  background-color: var(--accent-color);
 }
-
+/* Футер */
 .footer{
 
 }
@@ -131,7 +139,8 @@ body {
 .footer-social-links:hover {
     background-color:var(--accent-color);
 }
-
+/* Страница портфолио */
+/* Фильтр */
 .category {
     color: var(--title-text-color);
     background: #F5F4FA
