@@ -43,18 +43,9 @@
    }
 
 /* Страница портфолио */
-/* Фильтр */
-.filter {
-    color: var(--title-text-color);
-    background: #F5F4FA
-    
-}
 
-.filter:hover {
-    color: #ffffff;
-    background-color: var(--accent-color);
-    
-}
+
+
 
 .project-liks {
     color: var(--title-text-color);
@@ -67,4 +58,10 @@
 }
 .project-liks:active {
     color: var(--accent-color);
+}
+/* Фильтр */
+.filter {
+    color: var(--title-text-color);
+    background: #F5F4FA
+    
 }
