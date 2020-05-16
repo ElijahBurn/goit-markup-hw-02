@@ -15,6 +15,7 @@
     --background-color: #fff;
     --footer-background: #2F303A;
     --studio-color: #000000;
+    --btn-background-color: #F5F4FA;
 }
 
 /* Герой */
@@ -64,4 +65,12 @@
     color: var(--title-text-color);
     background: #F5F4FA
     
+}
+.btn {
+    color: var(--title-text-color);
+    background-color: var(--btn-background-color);
+}
+.btn:hover {
+    color: var(--background-color);
+    background-color: var(--accent-color);
 }
