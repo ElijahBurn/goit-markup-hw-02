@@ -14,18 +14,28 @@ body {
     color: var(--title-text-color);
     background-color: var(--background-color);
     font-family : 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .logo {
     color: var(--studio-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.2;
     
 }
 
 /* Панель навигации */
-.nav {
-    color: var(--title-text-color);    
+nav {
+    color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
 }
 
 .nav:hover {
@@ -98,6 +108,10 @@ body {
 .adress {
     color: #fff;
     background: #2F303A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .footer-contacts {
@@ -107,6 +121,14 @@ body {
 
 .footer-social-links {
     background-color: rgba(255, 255, 255, 0.1);
+}
+.join-us-p {
+    color: var(--background-color);
+    background-color: var(--footer-background);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .footer-social-links:hover {
