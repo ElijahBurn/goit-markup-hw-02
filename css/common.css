@@ -57,6 +57,19 @@ nav {
     letter-spacing: 0.02em;  
 }
 
+.contacts {
+    display: flex;
+}
+.contacts .contact-list:not(:last-child) {
+    margin-right: 30px;
+}
+
+.contacts .contact-list {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .header-nav {
 
 }
@@ -72,9 +85,25 @@ nav {
     color: var(--accent-color);
 }
 
+.site-nav {
+    display: flex;
+}
+
+.site-nav .item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .nav-link {
     color: var(--title-text-color);
     text-decoration: none;
+
+
 }
 
 .nav-link.current {
@@ -96,6 +125,7 @@ nav {
 .nav-mail {
     color: var(--primary-text-color);
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .nav-mail:hover {
@@ -113,6 +143,7 @@ nav {
 .nav-phone {
     color: var(--primary-text-color);
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .nav-phone:hover {
