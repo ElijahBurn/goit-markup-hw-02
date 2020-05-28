@@ -27,7 +27,7 @@ line-height: 1.36;
 
 text-align: center;
 letter-spacing: 0.06em;
-text-transform: uppercase;
+
 }
 
 .hero-button {
@@ -37,11 +37,11 @@ text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    padding: 10px 32px;
     letter-spacing: 0.06em;
     text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
 }
 
 /* Advantages */
@@ -96,6 +96,7 @@ text-transform: uppercase;
     line-height: 1.16;
     text-align: center;
 }
+
 .clients-list:hover {
  background-color: var(--accent-color);
 }
