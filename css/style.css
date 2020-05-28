@@ -16,15 +16,15 @@
     --footer-background: #2F303A;
     --studio-color: #000000;
     --btn-background-color: #F5F4FA;
+    --services-color: rgba(47, 48, 58, 0.8);
 }
 
 /* Герой */
 .hero{
-    font-style: normal;
+font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-
 text-align: center;
 letter-spacing: 0.06em;
 
@@ -42,23 +42,46 @@ letter-spacing: 0.06em;
     text-decoration: none;
     border-radius: 4px;
     text-align: center;
+    margin-top: 30px;
+}
+
+.hero-header {
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Advantages */
+.advntages {
+    padding: 215px 94px;
+}
 .adv-heading {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.adv-image-cont {
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 102px;
+    padding-right: 102px;
+    border-radius: 4px;
 }
 .adv-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: var(--primary-text-color);
+    margin: 0px;
 }
 /* Услуги */
-.services-heaing{
+.services-heading{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -66,13 +89,15 @@ letter-spacing: 0.06em;
 }
 
 .services{
-    background-color: rgba(47, 48, 58, 0.8);
+    background-color: var(--services-color);
     color: #fff;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
+    border-radius: 0px 0px 4px 4px;
+    padding: 27px 82px;
 }
 /* Команда */
 .crewman {
@@ -97,8 +122,14 @@ letter-spacing: 0.06em;
     text-align: center;
 }
 
+.clients-list {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 20px 63px;
+}
 .clients-list:hover {
  background-color: var(--accent-color);
+
 }
 .clients-list:focus {
     background-color: var(--accent-color);
@@ -107,6 +138,10 @@ letter-spacing: 0.06em;
     background-color: var(--accent-color);
    }
 
+   .footer-section {
+       background-color: var(--footer-background);
+       margin-top: 94px;
+   }
 
 
 
@@ -125,6 +160,7 @@ letter-spacing: 0.06em;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    border-radius: 4px;
 }
 .btn:hover {
     color: var(--background-color);

@@ -5,10 +5,13 @@
     --background-color: #fff;
     --footer-background: #2F303A;
     --studio-color: #000000;
+    --services-color: rgba(47, 48, 58, 0.8);
 }
 
 ul {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 body {
     color: var(--title-text-color);
@@ -16,13 +19,17 @@ body {
     font-family : 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     box-sizing: border-box;
-    
+
+
 }
 
 html {
+    align-content: center;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
