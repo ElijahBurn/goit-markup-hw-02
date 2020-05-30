@@ -54,6 +54,18 @@ letter-spacing: 0.06em;
 .advntages {
     padding: 215px 94px;
 }
+
+.adv-ul {
+    display: flex;
+    margin-top: 94px;
+    align-items: flex-end;
+    margin-bottom: 188px;
+}
+
+.adv-ul .adv-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .adv-heading {
     font-weight: bold;
     font-size: 14px;
@@ -100,6 +112,28 @@ letter-spacing: 0.06em;
     padding: 27px 82px;
 }
 /* Команда */
+
+.team-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.crew {
+    display: flex;
+}
+
+.crew .team-member:not(:last-child){
+    margin-right: 30px;
+}
+
+.team-member {
+    text-align: center;
+}
+
 .crewman {
     font-weight: 500;
     font-size: 16px;
@@ -114,7 +148,16 @@ letter-spacing: 0.06em;
     line-height: 1.18;
     text-align: center;
 }
+
+.social-liks-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
 /* Клиенты */
+
+.clients-ul {
+    display: flex;
+}
 .clients-heading{
     font-weight: bold;
     font-size: 36px;

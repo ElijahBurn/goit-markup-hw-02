@@ -41,6 +41,7 @@ html {
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    margin-right: 85px;
     
 }
 .accent {
@@ -59,10 +60,12 @@ nav {
 
 .contacts {
     display: flex;
+    margin-left: auto;
 }
 .contacts .contact-list:not(:last-child) {
     margin-right: 30px;
 }
+
 
 .contacts .contact-list {
     display: block;
@@ -72,6 +75,11 @@ nav {
 
 .header-nav {
 
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 .nav:hover {
     color: var(--accent-color);
