@@ -170,10 +170,30 @@ nav {
 /* Футер */
 
 
-.footer-section {
+.footer-logo {
+    color: var(--studio-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
     background-color: var(--footer-background);
     margin-top: 94px;
-    padding-left: 214px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+
 }
 
 .footer-social-links-list {
@@ -189,6 +209,9 @@ nav {
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .footer-contacts {
