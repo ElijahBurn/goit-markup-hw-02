@@ -59,7 +59,8 @@ letter-spacing: 0.06em;
     display: flex;
     margin-top: 94px;
     align-items: flex-end;
-    margin-bottom: 188px;
+    padding-bottom: 94px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .adv-ul .adv-item:not(:last-child) {
@@ -93,6 +94,11 @@ letter-spacing: 0.06em;
     margin: 0px;
 }
 /* Услуги */
+
+.service {
+    margin-top: 94px;
+}
+
 .services-heading{
     font-weight: 700;
     font-size: 36px;

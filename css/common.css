@@ -76,10 +76,6 @@ nav {
     padding-bottom: 32px;
 }
 
-.header-nav {
-
-}
-
 .main-nav {
     display: flex;
     align-items: center;
@@ -193,13 +189,13 @@ nav {
     display: flex;
     flex-direction: row;
     align-content: space-between;
+    padding-top: 56px;
+    padding-left: 214px;
+    padding-right: 216px;
 
 }
 
-.footer-social-links-list {
-    display: flex;
-    
-}
+
 
 .adress {
     color: #fff;
@@ -220,9 +216,23 @@ nav {
     text-decoration: none;
 }
 
+.footer-social-links-list {
+    display: flex;
+    
+}
+
 .footer-social-links {
     background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 44px;
+    padding: 12px;
+    display: flex;
+    align-content: center;
 }
+
+.footer-social-links-list .footer-social-links:not(:last-child){
+    margin-right: 10px;
+}
+
 .join-us-p {
     color: var(--background-color);
     background-color: var(--footer-background);
