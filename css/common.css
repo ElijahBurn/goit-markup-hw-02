@@ -19,15 +19,18 @@ body {
     font-family : 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     box-sizing: border-box;
-
-
-}
-
-html {
     align-content: center;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+html {
+    width: 1600px;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -167,7 +170,16 @@ nav {
 /* Футер */
 
 
+.footer-section {
+    background-color: var(--footer-background);
+    margin-top: 94px;
+    padding-left: 214px;
+}
 
+.footer-social-links-list {
+    display: flex;
+    
+}
 
 .adress {
     color: #fff;
